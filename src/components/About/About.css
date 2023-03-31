@@ -1,0 +1,57 @@
+/* h1{
+    background-color: whit;
+    display: flex;
+    font-size: 50px;
+    margin-bottom: -8%;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 50%;
+    padding: 3em;
+    font-family: 'Get Schwifty';
+    color: #08BAE3 !important;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    text-shadow:0px 0px 10px rgb(255, 255, 255);
+    transition: transform 1.2s;
+} */
+
+.imagen{
+    background: url(https://i.pinimg.com/originals/97/b2/14/97b214c07fcc1a2c21f732f508c78636.gif) no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 1381px;
+    color: #ffffff !important;
+  -webkit-text-stroke: 2.1px rgb(0, 0, 0);
+
+}
+
+.Sobremi{
+    color: #fff;
+    text-align: center;
+    font-size: 3rem;
+    color: #ffffff !important;
+  -webkit-text-stroke: 2.5px rgb(0, 0, 0);
+  margin-top: -100px;
+}
+
+.lenguaje{
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem;
+  color: #ffffff !important;
+-webkit-text-stroke: 2.4px rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+@font-face {                /* fuente de letra Rick And Morty! */
+    font-family: 'Get Schwifty';
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/3089507/get-schwifty.woff') format('woff');
+  }
