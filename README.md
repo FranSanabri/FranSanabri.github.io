@@ -1,2 +1,0 @@
-# FranSanabri.github.io
-Proyecto
