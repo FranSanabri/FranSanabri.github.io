@@ -15,7 +15,7 @@
 } */
 
 .imagen{
-    background: url(https://i.pinimg.com/originals/97/b2/14/97b214c07fcc1a2c21f732f508c78636.gif) no-repeat center center fixed;
+    background: url(https://i.pinimg.com/originals/49/4c/6b/494c6b914a7842e7c0e18cb68d41255e.png) no-repeat center center fixed;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -28,13 +28,36 @@
 
 }
 
-.Sobremi{
-    color: #fff;
-    text-align: center;
-    font-size: 3rem;
-    color: #ffffff !important;
-  -webkit-text-stroke: 2.5px rgb(0, 0, 0);
-  margin-top: -100px;
+.Sobremi4{
+  font-size: 20px;
+  bottom: -100px;
+  right: 250px;
+  position: relative;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 47ch;
+  animation: typing 1s steps(12), blink .5s infinite step-end alternate;
+  overflow: hidden;
+
+}
+
+@keyframes typing {
+  from {width: 0}
+}
+
+@keyframes blink {
+  50% {border-color: transparent}
+}
+
+.Sobremi1{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 27px;
+  position: relative;
+  margin-left: 20px;
+  top: 170px;
+  justify-content: center;
+
 }
 
 .lenguaje{
@@ -46,9 +69,97 @@
 }
 
 
+.instagram{
+  position: absolute;
+  font-size: 50px;
+  left: 370px;
+  top: 560px;
+
+}
+
+.github{
+  position: absolute;
+  font-size: 50px;
+  left: 300px;
+  top: 560px;
 
 
+}
 
+.linkedin{
+  position: absolute;
+  font-size: 50px;
+  left: 230px;
+  top: 560px;
+
+
+}
+
+.react{
+  position: absolute;
+  font-size: 50px;
+  right: 230px;
+  color: cadetblue;
+  top: 560px;
+
+}
+
+.css{
+  position: absolute;
+  font-size: 50px;
+  right: 300px;
+  color: blue;
+  top: 560px;
+}
+
+.js{
+  position: absolute;
+  font-size: 50px;
+  right: 155px;
+  color: yellow;
+  top: 560px;
+
+}
+
+.html5{
+  position: absolute;
+  font-size: 50px;
+  left: 920px;
+  color: orange;
+  top: 560px;
+}
+
+.texto2{
+  position: absolute;
+  right: 30px;
+  bottom: 36px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.texto3{
+  position: absolute;
+  left: 280px;
+  bottom: 36px;
+  font-size: 20px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.foto{
+  position: relative;
+  width: 250px;
+  left: -80px;
+  top: 100px;
+}
+
+.info{
+  position: absolute;
+  top: 50px;
+  font-size: 50px;
+}
 
 
 @font-face {                /* fuente de letra Rick And Morty! */

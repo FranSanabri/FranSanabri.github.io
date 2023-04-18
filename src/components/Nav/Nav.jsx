@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import SearchBar from "../SearchBar/SearchBar";
 import "./Nav.css";
+import { FaHome, FaHeart, FaAddressCard } from 'react-icons/fa';
+
 
 const Nav = ({ onSearch }) => {
     return ( 
@@ -10,13 +12,16 @@ const Nav = ({ onSearch }) => {
         <img src="https://vish213-rick-and-morty.netlify.app/static/media/logo.eab63707.png" className="img" /> </a>
         <SearchBar onSearch={onSearch}/>
         <Link to="/about">
-            <h3 className="about">About</h3>
+        <FaAddressCard className="about">
+            <h3 className="about">About</h3></FaAddressCard>
             </Link>
             <Link to="/home">
-            <h3 className="home">Home</h3>
+                <FaHome className="home">
+            <h3 className="home">Home</h3></FaHome>
             </Link>
             <Link to="/favorites">
-            <h3 className="favorites">Favorites</h3>
+            <FaHeart className="favorites">
+            <h3 className="favorites">Favorites</h3></FaHeart>
             </Link>
          </div>
     ) 

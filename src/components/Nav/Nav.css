@@ -36,8 +36,8 @@
 
 .about{
     position: absolute;
-    right: 453px;
-    top: 0px;
+    right: 120px;
+    top: 20px;
     font-size: 20px;
     font-family: 'Outfit';
     color: #f7f7f7 !important;
@@ -48,7 +48,7 @@
     -webkit-border-radius: 62px 62px 62px 62px;
     -moz-border-radius: 62px 62px 62px 62px;
     border: 2px solid #ffffff;
-    width: 150px;
+    width: 80px;
     padding: 0.1em;
     text-align: center;
     align-items: center;
@@ -62,8 +62,8 @@
 
 .home{
     position: absolute;
-    right: 800px;
-    top: 0px;
+    right: 230px;
+    top: 20px;
     font-size: 20px;
     font-family: 'Outfit';
     color: #ffffff !important;
@@ -74,7 +74,7 @@
     -webkit-border-radius: 62px 62px 62px 62px;
     -moz-border-radius: 62px 62px 62px 62px;
     border: 2px solid #ffffff;
-    width: 150px;
+    width: 80px;
     padding: 0.1em;
     text-align: center;
     
@@ -82,8 +82,8 @@
 
 .favorites{
     position: absolute;
-    right: 625px;
-    top: 0px;
+    right: 10px;
+    top: 20px;
     font-size: 20px;
     font-family: 'Outfit';
     color: #ffffff !important;
@@ -94,7 +94,7 @@
     -webkit-border-radius: 62px 62px 62px 62px;
     -moz-border-radius: 62px 62px 62px 62px;
     border: 2px solid #ffffff;
-    width: 150px;
+    width: 80px;
     padding: 0.1em;
     text-align: center;
 
