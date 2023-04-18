@@ -1,27 +1,27 @@
-import { ADD_FAVORITE, REMOVE_FAVORITE } from "./actions";
+import { ADD_FAV, REMOVE_FAV } from "./types";
 
 const initialState = {
+    data: [],
     myFavorites: [],
 };
 
-const rootReducer = (state= initialState, action) => {
-    switch (action.type) {
+export default function rootReducer (state = initialState, {type, payload}) {
+    switch (type) {
     
-        case ADD_FAVORITE:
-            return { ...state, myFavorites:[...state.myFavorites, action.payload], 
+        case ADD_FAV:
+            return { ...state, myFavorites:[...state.myFavorites, payload], 
             };
 
 
-        case REMOVE_FAVORITE:
-            return {
-                ...state, 
-                 myFavorites:  state.myFavorites.filter(
-                    (char)=> char.id !== action.payload
-                    ),
-                };
+        case REMOVE_FAV:
+            const newFavoritres = state.myFavorites.filter((ch)=> ch.id !== payload)
+            return{
+                ...state,
+                myFavorites: newFavoritres,
+            }
+                
 
         default:
             return {...state };
     }
 }
-export default rootReducer;

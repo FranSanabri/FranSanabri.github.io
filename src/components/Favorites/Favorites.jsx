@@ -1,24 +1,41 @@
-import { useSelector } from "react-redux";
+import { useSelector, connect } from "react-redux";
 import Card from "../Card/Card";
 import './Favorites.css';
+import { addFav, removeFav } from "../../redux/actions";
 
-const Favorites = () => {
-    const favorites = useSelector((state) => state.myFavorites);
 
+function Favorites({myFavorites, onClose}) { 
+    function closeFavorite(id){
+        onClose(id)
+       // removeFavorite(id)
+    }
     return (
-        <>
-            {favorites.map(({id, name, species, gender, image }) => {
+        <div className="favorite">
+            {myFavorites &&
+            myFavorites.map((element, index ) => {
                 return (
                 <Card
-                id={id}
-                name={name}
-                species={species}
-                gender={gender}
-                image={image}
+                id={element.id}
+                name={element.name}
+                species={element.species}
+                gender={element.gender}
+                image={element.image}
+                onClose={()=> closeFavorite(element.id)}
                 />
             );
          })} 
-            </>
+            </div>
     );
-};
-export default Favorites;
+}
+export function mapStateToProps(state) {
+    return{
+        myFavorites: state.myFavorites,
+    };
+}
+
+export function mapDispatchToProps(dispatch) {
+    return{
+        removeFavorite: (id) => dispatch(removeFav(id))
+    };
+}
+export default connect(mapStateToProps,mapDispatchToProps)(Favorites);
