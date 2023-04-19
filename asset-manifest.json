@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/FranSanabri/FranSanabri.github.io.git/static/css/main.a3b2d52d.css",
-    "main.js": "/FranSanabri/FranSanabri.github.io.git/static/js/main.e1fd9ac0.js",
-    "static/media/unnamed.png": "/FranSanabri/FranSanabri.github.io.git/static/media/unnamed.6511b24191f523ca31ee.png",
-    "index.html": "/FranSanabri/FranSanabri.github.io.git/index.html",
-    "main.a3b2d52d.css.map": "/FranSanabri/FranSanabri.github.io.git/static/css/main.a3b2d52d.css.map",
-    "main.e1fd9ac0.js.map": "/FranSanabri/FranSanabri.github.io.git/static/js/main.e1fd9ac0.js.map"
+    "main.css": "/rick-and-morty/static/css/main.15e7d5b4.css",
+    "main.js": "/rick-and-morty/static/js/main.f020942d.js",
+    "static/media/unnamed.png": "/rick-and-morty/static/media/unnamed.6511b24191f523ca31ee.png",
+    "index.html": "/rick-and-morty/index.html",
+    "main.15e7d5b4.css.map": "/rick-and-morty/static/css/main.15e7d5b4.css.map",
+    "main.f020942d.js.map": "/rick-and-morty/static/js/main.f020942d.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3b2d52d.css",
-    "static/js/main.e1fd9ac0.js"
+    "static/css/main.15e7d5b4.css",
+    "static/js/main.f020942d.js"
   ]
 }
