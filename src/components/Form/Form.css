@@ -3,7 +3,7 @@
     background: url(http://assets.vg247.com/current/2015/08/rick_and-_morty_1.jpg);
     position: absolute;
     z-index: 2;
-    height: 65em;
+    height: 55em;
     width: 45em;
     left: 0px;
     background-position: center;
@@ -70,7 +70,7 @@
   margin-left: 122%;
   margin-bottom: 20px;
   transition: transform 1.3s;
-  bottom: 550px;
+  bottom: 400px;
 }
 
 
@@ -136,7 +136,7 @@
     font-size: 29px;
     margin-left: 115%;
     font-family: 'Outfit';
-    bottom: 770px;
+    bottom: 650px;
     -webkit-text-stroke: 2px rgb(0, 0, 0);
     white-space: pre;
 

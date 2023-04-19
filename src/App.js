@@ -14,6 +14,7 @@ function App() {
    const { pathname } = useLocation();
    const [access,setAccess] = useState(false);
    const navigate = useNavigate();
+   const [loggedIn,setLoggedIn] = useState(true);
 
    useEffect(() => {
       !access && navigate ("/")
@@ -21,7 +22,7 @@ function App() {
 
    //! CRENDENCIALES FAKE
 
-   const username = "fran@gmail.com";
+   const username = "proyecto@gmail.com";
    const password = "mipass123";
   
 
@@ -42,11 +43,15 @@ function App() {
     const login = (userData) => {
       if(userData.username === username && userData.password === password) {
          setAccess(true);
+         setLoggedIn(true)
          navigate("/home");
       }else{
          alert("Ingresar Usename y Password")
       }
     };
+
+ 
+
     
 
    return (

@@ -1,11 +1,15 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import SearchBar from "../SearchBar/SearchBar";
 import "./Nav.css";
-import { FaHome, FaHeart, FaAddressCard } from 'react-icons/fa';
+import { FaHome, FaHeart, FaAddressCard, FaAngleDoubleRight } from 'react-icons/fa';
 
 
 const Nav = ({ onSearch }) => {
+    const navigate = useNavigate();
+    const handleLogout = () => {
+        navigate("/");
+    }
     return ( 
     <div className="nav">
         <a href="https://www.adultswim.com/videos/rick-and-morty" target="_blank">
@@ -23,6 +27,9 @@ const Nav = ({ onSearch }) => {
             <FaHeart className="favorites">
             <h3 className="favorites">Favorites</h3></FaHeart>
             </Link>
+            <FaAngleDoubleRight className="logout" onClick={handleLogout}> 
+      <button className="logout" onClick={handleLogout}>Logout</button></FaAngleDoubleRight>
+   
          </div>
     ) 
 }

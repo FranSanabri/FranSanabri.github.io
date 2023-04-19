@@ -3,13 +3,13 @@ import style from "./Card.module.css";
 import { connect, useDispatch }  from "react-redux";
 import { addFav, removeFav } from "../../redux/actions";
 import { useState, useEffect } from "react";
-
+import BackgroundImage from "../BackgroundImage/background"; // importa el componente BackgroundImage
 
 
 function Card({ id, name, species, gender, image, onClose, addFav, removeFav, myFavorites,}) {
 
  const [isFav, setIsFav] = useState(false);
-console.log(myFavorites);
+
  const handleFavorite = () => {
    if(isFav) { 
       setIsFav(false);
@@ -30,6 +30,8 @@ console.log(myFavorites);
 }, [myFavorites]);
 
    return (
+
+       <div>
       <div className={style.container}>
       
          <button onClick={() => onClose(id)} className={style.closeButton}>X</button>
@@ -45,6 +47,7 @@ console.log(myFavorites);
    ) : (
       <button onClick={handleFavorite}className={style.corazon} >🤍</button>
    )}
+      </div>
       </div>
    ); 
 }
@@ -66,5 +69,7 @@ const mapStateToProps = (state) => {
       myFavorites: state.myFavorites,
    };
 };
+
+
 
 export default connect(mapStateToProps, mapDispatchToProps)(Card);

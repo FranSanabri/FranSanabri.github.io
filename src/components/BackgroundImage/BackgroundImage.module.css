@@ -1,0 +1,10 @@
+.background {
+    background-image: url('https://www.nawpic.com/media/2020/rick-and-morty-4k-nawpic-1.jpg');
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
