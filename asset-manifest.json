@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/FranSanabri.github.io/static/css/main.062e69cc.css",
-    "main.js": "/FranSanabri.github.io/static/js/main.c8c1a03d.js",
-    "static/media/unnamed.png": "/FranSanabri.github.io/static/media/unnamed.6511b24191f523ca31ee.png",
-    "index.html": "/FranSanabri.github.io/index.html",
-    "main.062e69cc.css.map": "/FranSanabri.github.io/static/css/main.062e69cc.css.map",
-    "main.c8c1a03d.js.map": "/FranSanabri.github.io/static/js/main.c8c1a03d.js.map"
+    "main.css": "/FranSanabri/FranSanabri.github.io.git/static/css/main.a3b2d52d.css",
+    "main.js": "/FranSanabri/FranSanabri.github.io.git/static/js/main.e1fd9ac0.js",
+    "static/media/unnamed.png": "/FranSanabri/FranSanabri.github.io.git/static/media/unnamed.6511b24191f523ca31ee.png",
+    "index.html": "/FranSanabri/FranSanabri.github.io.git/index.html",
+    "main.a3b2d52d.css.map": "/FranSanabri/FranSanabri.github.io.git/static/css/main.a3b2d52d.css.map",
+    "main.e1fd9ac0.js.map": "/FranSanabri/FranSanabri.github.io.git/static/js/main.e1fd9ac0.js.map"
   },
   "entrypoints": [
-    "static/css/main.062e69cc.css",
-    "static/js/main.c8c1a03d.js"
+    "static/css/main.a3b2d52d.css",
+    "static/js/main.e1fd9ac0.js"
   ]
 }
